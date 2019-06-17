@@ -1,0 +1,29 @@
+body{
+	overflow-x: hidden;
+}
+
+#about_text{
+	width:70vw;
+	left:15vw;
+	font-size: 1.6vw;
+	top:25vh;
+	color:white;
+	font-family: 'Josefin Sans', sans-serif;
+	position: absolute;
+	text-align: center;
+}
+#vis_head{
+	position: absolute;
+	width:60vw;
+	left:20vw;
+	top:7vh;
+	text-align: center;
+	font-size: 3.5vw;
+	color: white;
+	font-family: 'Amaranth';
+}
+@media screen and (max-width: 500px){
+	#about_text{
+		top:15vh;
+	}
+}
