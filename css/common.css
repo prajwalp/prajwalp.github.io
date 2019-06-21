@@ -9,7 +9,7 @@ body{
 #topBar{
 	width: 100vw;
 	height: 15vh;
-	background-color: #788EFF;
+	background-color: #DAD8AD;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
