@@ -9,7 +9,7 @@ body{
 #topBar{
 	width: 100vw;
 	height: 15vh;
-	background-color: #DAD8AD;
+	background-color: #C7C5B7;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -58,4 +58,41 @@ body{
 .topBarLinkItem>a:hover{
 	cursor: pointer;
 	color:white;
+}
+#aboutDiv{
+	width:80vw;
+	height: auto;
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 10vh;
+}
+#aboutImg{
+	width: 20vw;
+	height: auto;
+	border-radius: 10vw;
+}
+#aboutCont{
+	width: 45vw;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+#aboutContHead{
+	width: 40vw;
+	height: auto;
+	font-family: 'Noto Sans HK';
+	font-size: 2.5vw;
+	text-align: left;
+	margin: 0;
+}
+#aboutContText{
+	width: 40vw;
+	height: auto;
+	font-family: 'Nunito';
+	font-size: 1.6vw;
+	text-align: justify;
 }
