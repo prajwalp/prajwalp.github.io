@@ -1,0 +1,64 @@
+#aboutDiv{
+	width:100vw;
+	height: auto;
+	display:flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding-top: 10vh;
+	padding-bottom: 5vh;
+}
+#aboutImg{
+	width: 20vw;
+	height: auto;
+	border-radius: 10vw;
+}
+#aboutCont{
+	width: 80vw;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+#aboutContHead{
+	width: 30vw;
+	height: auto;
+	font-family: 'Noto Sans HK';
+	font-size: 2.5vw;
+	text-align: center;
+	margin: 0;
+}
+#aboutContText{
+	width: 40vw;
+	height: auto;
+	font-family: 'Nunito';
+	font-size: 1.6vw;
+	text-align: justify;
+}
+
+#contactDiv{
+	width:100vw;
+	height: auto;
+	display:flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding-top: 5vh;
+	background-color: #C7C5B7;
+}
+#contactContHead{
+	width: 40vw;
+	height: auto;
+	font-family: 'Noto Sans HK';
+	font-size: 2.5vw;
+	text-align: center;
+	margin: 0;
+}
+#contactContText{
+	width: 40vw;
+	height: auto;
+	font-family: 'Nunito';
+	font-size: 1.6vw;
+	text-align: justify;
+}
