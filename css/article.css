@@ -1,0 +1,28 @@
+#artDiv{
+	width: 100vw;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+#artHead{
+	font-family: 'Poppins';
+	font-size: 2vw;
+	text-align: center;
+	width: 40vw;
+	margin-bottom: 0;
+}
+#artMeta{
+	font-family: 'Noto Sans HK';
+	font-size: 1vw;
+	text-align: center;
+	width: 50vw;
+}
+#artCont{
+	font-family: 'Nunito';
+	font-size: 1.4vw;
+	width: 75vw;
+	text-align: justify;
+	margin-bottom: 5vh;
+}
