@@ -1,0 +1,41 @@
+#projDiv{
+	width: 100vw;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+.projCov{
+	width: 100vw;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	padding-bottom: 5vh;
+}
+.projHead{
+	font-family: 'Noto Sans HK';
+	font-size: 2.5vw;
+	text-align: center;
+	width: 60vw;
+}
+.projItemHead{
+	font-family: 'Poppins';
+	font-size: 1.8vw;
+	font-weight: bold;
+	text-align: left;
+	width: 80vw;
+	margin: 0;
+}
+.projItemText{
+	font-family: 'Nunito';
+	font-size: 1.5vw;
+	text-align: justify;
+	width: 80vw;	
+	padding-bottom: 1vh;
+}
+#pastProj{
+	background-color: #C7C5B7;
+}
