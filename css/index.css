@@ -12,6 +12,7 @@
 	width: 20vw;
 	height: auto;
 	border-radius: 10vw;
+	padding:auto;
 }
 #aboutCont{
 	width: 80vw;
@@ -61,4 +62,32 @@
 	font-family: 'Nunito';
 	font-size: 1.6vw;
 	text-align: justify;
+}
+
+@media only screen and (max-width: 500px){
+	#aboutDiv{
+		padding-top: 2vh;
+		padding-bottom: 2vh;
+	}
+	#aboutContHead,#contactContHead{
+		width:70vw;
+		font-size:2.5vh;
+	}
+	#aboutCont{
+		width: 80vw;
+		flex-direction: column;
+	}
+	#aboutImg{
+		width: 40vw;
+		border-radius: 30vw;
+		padding: 1.5vh;
+	}
+	#aboutContText,#contactContText{
+		width: 80vw;
+		font-size:2vh;
+	}
+	#contactDiv{
+		padding-top: 2vh;
+		padding-bottom: 2vh;
+	}
 }

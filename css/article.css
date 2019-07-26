@@ -26,3 +26,17 @@
 	text-align: justify;
 	margin-bottom: 5vh;
 }
+@media only screen and (max-width: 500px){
+	#artHead{
+		font-size:2.5vh;
+		width:80vw;
+	}
+	#artMeta{
+		font-size:1vh;
+	}
+	#artCont{
+		width:85vw;
+		font-size:1.5vh;
+	}
+	
+}
