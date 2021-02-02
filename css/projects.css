@@ -39,10 +39,20 @@
 #pastProj{
 	background-color: #C7C5B7;
 }
+.acadHead{
+	font-family: 'Noto Sans HK';
+	text-align: center;
+	width: 60vw;
+	font-size: 2vw;
+	margin-top: 0;
+}
 
 @media only screen and (max-width: 500px){
 	.projHead{
 		font-size:2.5vh;
+	}
+	.acadHead{
+		font-size: 2vh;
 	}
 	.projItemHead{
 		font-size:1.8vh;
